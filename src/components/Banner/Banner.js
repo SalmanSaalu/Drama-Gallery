@@ -39,9 +39,9 @@ function Banner(props) {
           <div className='banner_buttons'>
               
         </div>
-        <div className="fade_bottom">
+        {/* <div className="fade_bottom">
             
-        </div>
+        </div> */}
       </div>}
       
     </div>
