@@ -8,7 +8,7 @@ function Banner(props) {
   const [movie,setMovie]=useState('')
   useEffect(()=>{
 
-      axios.get(`https://api.themoviedb.org/3/search/tv?query=Supernatural&api_key=${API_KEY}`).then((response) => {
+      axios.get(`https://api.themoviedb.org/3/search/tv?query=Locke&Key&api_key=${API_KEY}`).then((response) => {
         let t=response.data.results.filter(t=>t.name==='Locke & Key')[0]
         console.log(t)
         setMovie(t)
