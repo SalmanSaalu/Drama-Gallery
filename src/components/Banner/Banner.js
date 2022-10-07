@@ -22,6 +22,7 @@ function Banner(props) {
       autoplay: 1,
     },
   };
+  // lockeand key
   return (
     <div>
     {props.data ? 
