@@ -5,7 +5,7 @@ import './RowPost.css'
 import Youtube from 'react-youtube'
 
 function RowPost(props) {
-  const [Id, Movies] = useState(['Locke & Key','스위트홈','Supernaturals','Game of Thrones', 'Lost', 'The Walking Dead', 'Fear the Walking Dead', 'Prison Break', 'Stranger Things', '12 Monkeys', 'Lost in Space', 'The Last Kingdom', 'The 100', 'Vikings', 'Banshee', 'The Vampire Diaries', 'The Originals', 'Legacies', '13 Reasons Why', 'Teen Wolf', 'Squid Game', 'All of Us Are Dead', '오징어 게임', 'The Haunting of Hill House', 'Attack on Titan', 'Death Note', '킹덤', 'Alice in Borderland', 'Money Heist'])
+  const [Id, Movies] = useState(['Locke & Key','스위트홈','Supernaturals','Game of Thrones', 'Lost', 'The Walking Dead', 'Fear the Walking Dead', 'Prison Break', 'Stranger Things', '12 Monkeys', 'Lost in Space', 'The Last Kingdom', 'The 100', 'Vikings', 'Banshee', 'The Vampire Diaries', 'The Originals', 'Legacies', '13 Reasons Why', 'Teen Wolf', '오징어 게임', 'All of Us Are Dead', '해피니스', 'The Haunting of Hill House', 'Attack on Titan', 'Death Note', '킹덤', 'Alice in Borderland', 'Money Heist'])
   const [movies, setMovies] = useState([])
   const [seasons, setSeasons] = useState([])
   const [cond,setCond]=useState(false)
